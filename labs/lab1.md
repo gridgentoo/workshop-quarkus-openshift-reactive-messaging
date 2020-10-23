@@ -27,13 +27,13 @@ Navigator:
 
 ![](../images/cloud-shell-launch.png)
 
-Note: Your workspace includes 500 MB of temporary storage. Your session closes after 30 minutes of inactivity. If you’re inactive in Cloud Shell for over an hour, your workspace data is removed. It’s also removed if you reach the 4-hour continuous usage or 30-hour weekly usage limits.
+Примечание. Ваше **workspace** включает 500 МБ **temporary storage**. Ваш сеанс закрывается через 30 минут бездействия. Если вы не используете Cloud Shell более часа, данные вашей рабочей области удаляются. Он также удаляется при достижении 4-часового непрерывного или 30-hour weekly usage limits.
 
-This is what you should see:
+Вот что вы должны увидеть:
 
 ![](../images/cloud-shell.png)
 
-When using OpenShift locally, you need a local terminal and the following tools: 
+При локальном использовании **OpenShift** вам понадобится локальный терминал и следующие инструменты:
 
 * [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [curl](https://curl.haxx.se/download.html)
@@ -43,7 +43,7 @@ When using OpenShift locally, you need a local terminal and the following tools:
 
 ### Step 2: Get the Code
 
-In the IBM Cloud Shell execute the following command:
+В **IBM Cloud Shell** выполните следующую команду:
 
 ```
 $ git clone https://github.com/IBM/cloud-native-starter.git
@@ -53,13 +53,13 @@ $ git clone https://github.com/IBM/cloud-native-starter.git
 
 ### Step 3. Get Access to OpenShift
 
-Open the [IBM Cloud Dashboard](https://cloud.ibm.com). In the row at the top switch from your **own** account to the **IBM account** given to you by the instructor from the pulldown in the uper right corner.
+Откройте [IBM Cloud Dashboard](https://cloud.ibm.com). В строке вверху переключитесь с вашей **own** account, учетной записи на **IBM account**, предоставленную вам инструктором из раскрывающегося списка в правом верхнем углу.
 
-The select 'OpenShift' in the burger menu in the upper left corner followed by 'Clusters'.
+Выберите **'OpenShift'** в меню **burger menu** в верхнем левом углу, а затем **'Clusters'**.
 
 ![Select Open Shift in the menu](../images/openshift-console-launch1.png)
 
-Click on your cluster.
+Кликните свой кластер.
 
 ![C](../images/openshift-console-launch2.png)
 
