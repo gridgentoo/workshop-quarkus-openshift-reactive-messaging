@@ -20,13 +20,13 @@ Navigator:
 
 ![bus](../images/event-bus1.png)
 
-The 'Articles' service uses a clean architecture approach. There are three different layers:
+**'Articles'** service использует подход чистой архитектуры. Есть три разных слоя:
 
 * API
 * Business
 * Data
 
-The API layer contains the implementation of the REST APIs and the external messaging interfaces. The data layer contains the implementation of the persistence and could include calls to other external services. The API layer and the data layer can be easily replaced without changing the business logic.
+**API layer** содержит реализацию **REST API** и интерфейсов внешнего обмена сообщениями. **data layer** содержит реализацию сохраняемости и может включать вызовы других внешних служб. **API layer** и **data layer** можно легко заменить без изменения бизнес-логики.
 
 ![bus](../images/event-bus2.png)
 
