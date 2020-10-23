@@ -16,11 +16,11 @@ Navigator:
 Шина событий  [Vert.x Event Bus](https://vertx.io/docs/vertx-core/java/#event_bus) позволяет различным частям вашего приложения взаимодействовать друг с другом. 
 Ознакомьтесь с [guide](https://quarkus.io/guides/reactive-messaging), чтобы узнать больше.
 
-В этой лабораторной работе вы узнаете, как использовать шину **In-Memory BUS** для обмена данными в между различными слоями 'Articles' Сервисов .
+В этой лабораторной работе вы узнаете, как использовать шину **In-Memory BUS** для обмена данными между различными слоями **'Articles'** сервиса.
 
 ![bus](../images/event-bus1.png)
 
-**'Articles'** service использует подход чистой архитектуры. Есть три разных слоя:
+**'Articles'** сервис, использует подход чистой архитектуры. Есть три разных слоя:
 
 * API
 * Business
@@ -30,7 +30,7 @@ Navigator:
 
 ![bus](../images/event-bus2.png)
 
-In this lab you'll use the event bus to communicate between the business and the API layers.
+В этой лабораторной работе вы будете использовать **шину событий** для связи между бизнес-уровнями и **API layers**.
 
 ### Step 1: Understand the Publisher
 
