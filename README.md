@@ -27,12 +27,13 @@
 
 После завершения этого **workshop**а вы поймете следующие реактивные функции **reactive functionality**:
 * Отправка и получение сообщений используя **Kafka messages** происходит через **MicroProfile**
-* Sending events from microservices to web applications via Server Sent Events
+* Отправка событий из микросервисов в веб-приложения через, **Server Sent Events**
 * Отправка сообщений используя in-memory через **MicroProfile** и **Vert.x Event Bus**
 
-This workshop is for beginners and takes one hour.
+Этот workshop для начинающих занимает один час.
 
-*The intention of this workshop is not to explain every aspect of reactive programming, but to explain core reactive principles and to deploy a complete reactive application which you can inspect after the workshop in more detail.*
+* Целью этого workshop является не объяснение всех аспектов реактивного программирования, а объяснение core reactive principles и развертывание полного реактивного приложения, которое вы можете более подробно изучить после семинара. *
+
 
 ## Get Started
 
