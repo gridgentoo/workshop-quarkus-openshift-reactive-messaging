@@ -1,7 +1,4 @@
-### Workshop: Reactive Messaging with Quarkus on OpenShift
-### Мастер-класс: Реактивный обмен сообщениями с Quarkus на OpenShift
-
-> This workshop is also documented in an easier readable and navigable version using [GitBook](https://www.gitbook.com). You can access this version with this **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
+### (Workshop) Мастер-класс: Реактивный обмен сообщениями с Quarkus на OpenShift
 
 > Этот **workshop** семинар  также документирован в более удобной для чтения и навигации версии с использованием [GitBook](https://www.gitbook.com). Вы можете получить доступ к этой версии с помощью этой **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
 
