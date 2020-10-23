@@ -13,9 +13,10 @@ Navigator:
 
 # Lab 7: Vert.x Event Bus
 
-The [Vert.x Event Bus](https://vertx.io/docs/vertx-core/java/#event_bus) allows different parts of your application to communicate with each other. Check out the [guide](https://quarkus.io/guides/reactive-messaging) to find out more details.
+Шина событий  [Vert.x Event Bus](https://vertx.io/docs/vertx-core/java/#event_bus) позволяет различным частям вашего приложения взаимодействовать друг с другом. 
+Ознакомьтесь с [guide](https://quarkus.io/guides/reactive-messaging), чтобы узнать больше.
 
-In this lab you'll learn how to use the bus to communicate in-memory between different layers of the 'Articles' service.
+В этой лабораторной работе вы узнаете, как использовать шину **In-Memory BUS** для обмена данными в между различными слоями 'Articles' Сервисов .
 
 ![bus](../images/event-bus1.png)
 
