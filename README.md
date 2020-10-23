@@ -2,21 +2,24 @@
 
 > Этот **workshop** семинар  также документирован в более удобной для чтения и навигации версии с использованием [GitBook](https://www.gitbook.com). Вы можете получить доступ к этой версии с помощью этой **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
 
-In this workshop you'll learn how to implement reactive messaging functionality with Java, [Quarkus](https://quarkus.io/), [Kafka](https://kafka.apache.org/), [Vert.x](https://vertx.io/) and [MicroProfile](https://microprofile.io/). An end-to-end sample application will be deployed to [Red Hat OpenShift](https://www.openshift.com/).
+На этом **workshop-e** вы узнаете, как реализовать функциональность реактивного обмена сообщениями с помощью Java, [Quarkus](https://quarkus.io/), [Kafka](https://kafka.apache.org/), [Vert.x](https://vertx.io/) и [MicroProfile](https://microprofile.io/). Сквозной образец приложения будет развернут в  [Red Hat OpenShift](https://www.openshift.com/).
 
-The code is available as open source as part of the [Cloud Native Starter](https://github.com/IBM/cloud-native-starter/tree/master/reactive) project. 
+Код доступен в виде открытого исходного кода в рамках проекта [Cloud Native Starter](https://github.com/IBM/cloud-native-starter/tree/master/reactive).
 
-One benefit of reactive models is the ability to update web applications by sending messages, rather than pulling for updates. This is more efficient and improves the user experience.
+Одним из преимуществ реактивных моделей **reactive models** является возможность обновлять веб-приложения, отправляя сообщения, а не запрашивая обновления. Это более эффективно и улучшает взаимодействие с пользователем.
 
-The workshop uses a sample application to demonstrate reactive functionality. The simple application displays links to articles and author information. 
+На **workshop-e** используется образец приложения для демонстрации реактивной функциональности **reactive functionality**. Простое приложение отображает ссылки на статьи и информацию об авторе.
 
-Articles can be created via REST API. The web application receives a notification and adds the new article to the page. The animation shows how curl requests are executed at the bottom which trigger updates to the web application at the top.
+Статьи можно создавать через REST API. Веб-приложение получает уведомление и добавляет новую статью на страницу. 
+Анимация показывает, как выполняются запросы **curl requests** внизу, которые **trigger** запускают обновления веб-приложения вверху.
 
 <kbd><img src="images/demo-1-video-small.gif" /></kbd>
 
-The next diagram explains the flow between the different components and microservices. 
+Следующая диаграмма объясняет поток между различными компонентами и микросервисами.
 
-The API client 'Submissions' triggers the REST API of the 'Articles' service to create new articles. The 'Articles' service sends a message to the 'Web-API' service via 'Kafka'. The 'Web-API' provides a streaming endpoint that the web application 'Web-App' consumes.
+Клиент API 'Submissions' запускает по triggers REST API 'Articles' service для создания новых статей. 
+'Articles' service отправляет сообщение сервису 'Web-API' service через 'Kafka'. 
+'Web-API' предоставляет конечную точку потоковой передачи **streaming endpoint**, которую использует веб-приложение 'Web-App'.
 
 <kbd><img src="images/demo-1-small.png" /></kbd>
 
