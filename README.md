@@ -11,7 +11,7 @@
 На **workshop-e** используется образец приложения для демонстрации реактивной функциональности **reactive functionality**. Простое приложение отображает ссылки на статьи и информацию об авторе.
 
 Статьи можно создавать через REST API. Веб-приложение получает уведомление и добавляет новую статью на страницу. 
-Анимация показывает, как выполняются запросы **curl requests** внизу, которые **trigger** запускают обновления веб-приложения вверху.
+Анимация показывает, как выполняются запросы **curl requests** внизу, которые используя **trigger** запускают обновления веб-приложения вверху.
 
 <kbd><img src="images/demo-1-video-small.gif" /></kbd>
 
@@ -25,10 +25,10 @@
 
 ## Objectives
 
-After you complete this workshop, you'll understand the following reactive functionality:
-* Sending and receiving Kafka messages via MicroProfile
+После завершения этого **workshop**а вы поймете следующие реактивные функции **reactive functionality**:
+* Отправка и получение сообщений используя **Kafka messages** происходит через **MicroProfile**
 * Sending events from microservices to web applications via Server Sent Events
-* Sending in-memory messages via MicroProfile and Vert.x Event Bus
+* Отправка сообщений используя in-memory через **MicroProfile** и **Vert.x Event Bus**
 
 This workshop is for beginners and takes one hour.
 
