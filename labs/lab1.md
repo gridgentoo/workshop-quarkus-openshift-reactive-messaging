@@ -63,19 +63,19 @@ $ git clone https://github.com/IBM/cloud-native-starter.git
 
 ![C](../images/openshift-console-launch2.png)
 
-Open the OpenShift web console.
+Откройте **OpenShift web console**.
 
 ![Open the OpenShift web console](../images/openshift-console-launch3.png)
 
-From the dropdown menu in the upper right of the page, click 'Copy Login Command'. 
+В раскрывающемся меню в правом верхнем углу страницы кликните **'Copy Login Command'**.
 
 ![Key](../images/openshift-login1.png)
 
-Click on 'Display Token', then copy and paste the command 'Log in with this token' into your terminal in the IBM Cloud Shell.
+Кликниет **'Display Token'**, затем скопируйте и вставьте команду **'Log in with this token'** в свой терминал в **IBM Cloud Shell**.
 
 ![Key](../images/openshift-login2.png)
 
-Login to OpenShift in IBM Cloud Shell
+Войдите в  **OpenShift** в **IBM Cloud Shell**
 
 ```
 $ oc login https://c1XX-XX-X.containers.cloud.ibm.com:XXXXX --token=xxxxxx'
@@ -85,4 +85,4 @@ $ oc login https://c1XX-XX-X.containers.cloud.ibm.com:XXXXX --token=xxxxxx'
 
 ---
 
-__Continue with [Lab 2: Deploy Kafka via Script](lab2.md)__
+__Продолжить с [Lab 2: Deploy Kafka via Script](lab2.md)__
