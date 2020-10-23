@@ -1,5 +1,7 @@
 ### Мастер-класс: (Reactive Messaging) Реактивный обмен сообщениями с Quarkus на OpenShift
 
+**in-memory** для отправка сообщений через **MicroProfile** и **Vert.x Event Bus**
+
 > Этот **workshop** семинар  также документирован в более удобной для чтения и навигации версии с использованием [GitBook](https://www.gitbook.com). Вы можете получить доступ к этой версии с помощью этой **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
 
 На этом **workshop-e** вы узнаете, как реализовать функциональность реактивного обмена сообщениями с помощью Java, [Quarkus](https://quarkus.io/), [Kafka](https://kafka.apache.org/), [Vert.x](https://vertx.io/) и [MicroProfile](https://microprofile.io/). Сквозной образец приложения будет развернут в  [Red Hat OpenShift](https://www.openshift.com/).
@@ -28,7 +30,7 @@
 После завершения этого **workshop**а вы поймете следующие реактивные функции **reactive functionality**:
 * Отправка и получение сообщений используя **Kafka messages** происходит через **MicroProfile**
 * Отправка событий из микросервисов в веб-приложения через, **Server Sent Events**
-* Отправка сообщений используя in-memory через **MicroProfile** и **Vert.x Event Bus**
+* **in-memory** для отправка сообщений через **MicroProfile** и **Vert.x Event Bus**
 
 Этот workshop для начинающих занимает один час.
 
