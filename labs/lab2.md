@@ -13,27 +13,27 @@ Navigator:
 
 # Lab 1: Deploy Kafka via Script
 
-In this short lab you'll deploy Kafka via a script.
+В этой короткой лабораторной работе вы развернете Kafka с помощью скрипта.
 
 ### Step 1: Deploy Kafka
 
-Invoke the following command:
+Вызовите следующую команду:
 
 ```
 $ ~/cloud-native-starter/reactive/os4-scripts/deploy-kafka-oc-only.sh 
 ```
 
-As result you will see this:
+В результате вы увидите это:
 
 ![kafka deployment](../images/kafka-deployment.png)
 
 
 ### Step 2: Verify the Installation 
 
-It takes a couple of minutes until all pods have been started. You can check the status via the OpenShift web console. On the 'Pods' page select the 'kafka' project.
+На запуск всех Подов уходит пара минут. Вы можете проверить статус через **OpenShift web console**. На странице **'Pods'** выберите проект **'kafka'**.
 
 ![kafka deployment](../images/kafka-deployment2.png)
 
 ---
 
-__Continue with [Lab 3: Deploy Postgres via Operator](lab3.md)__
+__Продолжить с [Lab 3: Deploy Postgres via Operator](lab3.md)__
