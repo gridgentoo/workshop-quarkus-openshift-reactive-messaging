@@ -19,11 +19,13 @@ Navigator:
 
 We will use preconfigured [OpenShift on IBM Cloud](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) clusters in this hands-on workshop. You should have received information from your lab instructor to get access to one of these clusters.
 
+На этом практическом семинаре мы будем использовать предварительно настроенный [OpenShift в IBM Cloud](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster). Вы должны были получить информацию от своего лабораторного инструктора, чтобы получить доступ к одному из этих кластеров.
+
 ### Step 1: Set up Terminal
 
-When using OpenShift on IBM Cloud no client side setup is required for this workshop. Instead we will use the IBM Cloud Shell (Beta) which comes with all necessary CLIs (command line tools).
+При использовании OpenShift в IBM Cloud для этого семинара настройка на стороне клиента не требуется. Вместо этого мы будем использовать **IBM Cloud Shell** (бета), который поставляется со всеми необходимыми интерфейсами командной строки CLIs (command line tools).
 
-In your browser, login to the [IBM Cloud](https://cloud.ibm.com) Dashboard. Make sure you select your own account in the account list at the top, then click on the IBM Cloud Shell icon.
+В своем браузере войдите в панель управления [IBM Cloud](https://cloud.ibm.com). Убедитесь, что вы выбрали свою учетную запись в списке учетных записей вверху **account list**, а затем щелкните значок **IBM Cloud Shell**.
 
 ![](../images/cloud-shell-launch.png)
 
