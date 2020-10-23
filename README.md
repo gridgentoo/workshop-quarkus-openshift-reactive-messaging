@@ -1,4 +1,4 @@
-### (Workshop) Мастер-класс: Реактивный обмен сообщениями с Quarkus на OpenShift
+### (Workshop) Мастер-класс: (Reactive Messaging) Реактивный обмен сообщениями с Quarkus на OpenShift
 
 > Этот **workshop** семинар  также документирован в более удобной для чтения и навигации версии с использованием [GitBook](https://www.gitbook.com). Вы можете получить доступ к этой версии с помощью этой **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
 
@@ -33,7 +33,7 @@ This workshop is for beginners and takes one hour.
 
 ## Get Started
 
-These are the labs of this workshop, go through all of them in sequence, start with lab 1:
+Это лаборатории этого **workshop**, пройдите их все по порядку, начните с **lab 1**:
 
 * Lab 1: [Create your OpenShift Environment](labs/lab1.md)
 * Lab 2: [Deploy Kafka via Script](labs/lab2.md)
