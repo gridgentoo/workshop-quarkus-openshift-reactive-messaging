@@ -17,8 +17,6 @@ Navigator:
 
 Для использования **OpenShift** в **IBM Cloud** и **LogDNA** в лабораторной работе 8, требуется [IBM Cloud account](http://ibm.biz/nheidloff). Это бесплатно, не имеет срока действия, а для облегченной учетной записи кредитная карта не требуется.
 
-We will use preconfigured [OpenShift on IBM Cloud](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) clusters in this hands-on workshop. You should have received information from your lab instructor to get access to one of these clusters.
-
 На этом практическом семинаре мы будем использовать предварительно настроенный [OpenShift в IBM Cloud](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster). Вы должны были получить информацию от своего лабораторного инструктора, чтобы получить доступ к одному из этих кластеров.
 
 ### Step 1: Set up Terminal
