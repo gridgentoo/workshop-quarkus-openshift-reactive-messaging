@@ -13,11 +13,11 @@ Navigator:
 
 # Lab 3: Deploy Postgres via Operator
 
-In this lab you'll deploy Postgres and set up a database which is used by the 'Articles' service.
+В этой лабораторной работе вы развернете Postgres и настроите базу данных, которая будет использоваться **'Articles'** Сервисом.
 
 ### Step 1: Create Project
 
-In the Cloud Shell enter the following command.
+В **Cloud Shell** введите следующую команду.
 
 ```
 $ oc new-project postgres
@@ -27,7 +27,7 @@ $ oc new-project postgres
 
 ### Step 2: Install the Postgres Operator
 
-Open the OperatorHub page and filter by 'postgres'. Open the operator 'PostgreSQL Operator by Dev4devs.com'.
+Откройте страницу **OperatorHub** и отфильтруйте по **'postgres'**. Откройте оператор **'PostgreSQL Operator by Dev4devs.com'**.
 
 ![kafka deployment](../images/setup-postgres2.png)
 
@@ -35,7 +35,7 @@ Click 'Install'.
 
 ![kafka deployment](../images/setup-postgres3.png)
 
-Create a subscription. Make sure your new project 'postgres' is selected in the combobox.
+Создайте подписку. Убедитесь, что ваш новый проект **'postgres'** выбран в поле со списком.
 
 ![kafka deployment](../images/setup-postgres4.png)
 
