@@ -1,6 +1,9 @@
-# Workshop: Reactive Messaging with Quarkus on OpenShift
+### Workshop: Reactive Messaging with Quarkus on OpenShift
+### Мастер-класс: Реактивный обмен сообщениями с Quarkus на OpenShift
 
 > This workshop is also documented in an easier readable and navigable version using [GitBook](https://www.gitbook.com). You can access this version with this **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
+
+> Этот **workshop** семинар  также документирован в более удобной для чтения и навигации версии с использованием [GitBook](https://www.gitbook.com). Вы можете получить доступ к этой версии с помощью этой **[link](https://ibm-developer.gitbook.io/reactive-messaging-with-quarkus-on-openshift/)**.
 
 In this workshop you'll learn how to implement reactive messaging functionality with Java, [Quarkus](https://quarkus.io/), [Kafka](https://kafka.apache.org/), [Vert.x](https://vertx.io/) and [MicroProfile](https://microprofile.io/). An end-to-end sample application will be deployed to [Red Hat OpenShift](https://www.openshift.com/).
 
