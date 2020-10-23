@@ -33,7 +33,7 @@ This workshop is for beginners and takes one hour.
 
 ## Get Started
 
-Это лаборатории этого **workshop**, пройдите их все по порядку, начните с **lab 1**:
+Это лабы этого **workshop**, пройдите их все по порядку, начните с **lab 1**:
 
 * Lab 1: [Create your OpenShift Environment](labs/lab1.md)
 * Lab 2: [Deploy Kafka via Script](labs/lab2.md)
@@ -44,8 +44,8 @@ This workshop is for beginners and takes one hour.
 * Lab 7: [Vert.x Event Bus](labs/lab7.md)
 * Lab 8 (optional): [Use distributed Logging](labs/lab8.md)
 
-## What to do next
+### Что изучить дальше
 
-The [blogs](https://github.com/IBM/cloud-native-starter/tree/master/reactive#blogs) as well as the [presentation](images/ReactiveMicroservices.pdf) describe the functionality in more detail.
+[Блоги от IBM Cloud](https://github.com/IBM/cloud-native-starter/tree/master/reactive#blogs), а также [презентация](images/ReactiveMicroservices.pdf) описывают функциональность более подробно.
 
-There is a second workshop which uses the same sample application. That workshop is called [Reactive Endpoints with Quarkus on OpenShift](https://ibm-developer.gitbook.io/reactive-endpoints-with-quarkus-on-openshift/) and it focusses on reactive APIs and API invocations. 
+Есть второй **workshop**, в котором используется тот же образец приложения. Этот **workshop** называется  [Reactive Endpoints with Quarkus on OpenShift](https://ibm-developer.gitbook.io/reactive-endpoints-with-quarkus-on-openshift/) и фокусируется на реактивных API и вызовах API.
