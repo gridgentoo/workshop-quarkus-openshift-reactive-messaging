@@ -11,11 +11,11 @@ Navigator:
 
 ---
 
-# Lab 1: Create your Work Environment
+# Lab 1: Создайте свою Work Environment
 
-The main instructions of this workshop assume that you will use Red Hat OpenShift 4.3 on IBM Cloud. However you can also use [CodeReady Containers](https://github.com/code-ready/crc) to run OpenShift locally.
+Основные инструкции этого семинара предполагают, что вы будете использовать **Red Hat OpenShift 4.3** в **IBM Cloud**. Однако вы также можете использовать [CodeReady Containers](https://github.com/code-ready/crc) для локального запуска OpenShift.
 
-To use OpenShift on IBM Cloud and LogDNA in lab 8, an [IBM Cloud account](http://ibm.biz/nheidloff) is needed. It's free, doesn't expire and for the lite account no credit card is required.
+Для использования **OpenShift** в **IBM Cloud** и **LogDNA** в лабораторной работе 8, требуется [IBM Cloud account](http://ibm.biz/nheidloff). Это бесплатно, не имеет срока действия, а для облегченной учетной записи кредитная карта не требуется.
 
 We will use preconfigured [OpenShift on IBM Cloud](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster) clusters in this hands-on workshop. You should have received information from your lab instructor to get access to one of these clusters.
 
