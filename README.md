@@ -54,4 +54,4 @@
 
 [Блоги от IBM Cloud](https://github.com/IBM/cloud-native-starter/tree/master/reactive#blogs), а также [презентация](images/ReactiveMicroservices.pdf) описывают функциональность более подробно.
 
-Есть второй **workshop**, в котором используется тот же образец приложения. Этот **workshop** называется  [Reactive Endpoints with Quarkus on OpenShift](https://ibm-developer.gitbook.io/reactive-endpoints-with-quarkus-on-openshift/) и фокусируется на реактивных API и вызовах API.
+Есть второй **workshop**, в котором используется тот же образец приложения. Этот **workshop** называется  [Reactive Endpoints with Quarkus on OpenShift](https://github.com/gridgentoo/workshop-quarkus-openshift-reactive-endpoints) и фокусируется на реактивных API и вызовах API.
