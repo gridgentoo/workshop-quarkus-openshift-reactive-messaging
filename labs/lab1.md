@@ -47,6 +47,9 @@ Navigator:
 
 ```
 $ git clone https://github.com/IBM/cloud-native-starter.git
+cd cloud-native-starter/
+cd reactive/
+ROOT_FOLDER=${pwd}
 ```
 
 ![](../images/cloud-shell-clone.png)
