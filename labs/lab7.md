@@ -11,7 +11,7 @@ Navigator:
 
 ---
 
-# Lab 7: Vert.x Event Bus
+# Lab 7: In-Memory Шина событий, Vert.x Event Bus
 
 **In-Memory Шина событий** [Vert.x Event Bus](https://vertx.io/docs/vertx-core/java/#event_bus) позволяет различным частям вашего приложения взаимодействовать друг с другом. 
 Ознакомьтесь с [guide](https://quarkus.io/guides/reactive-messaging), чтобы узнать больше.
