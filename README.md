@@ -39,7 +39,7 @@
 
 ## Get Started
 
-Это лабы этого **workshop**, пройдите их все по порядку, начните с **lab 1**:
+Это лабы, для этого **workshop**, пройдите их все по порядку, начните с **lab 1**:
 
 * Lab 1: [Create your OpenShift Environment](labs/lab1.md)
 * Lab 2: [Deploy Kafka via Script](labs/lab2.md)
